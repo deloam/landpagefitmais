@@ -14,6 +14,14 @@ const Footer: React.FC = () => {
                     <p>contato@fitmaisequipamentos.com.br</p>
                     <p>(11) 99999-9999</p>
                  </div>
+                <div className="flex justify-center space-x-6 mb-4">
+                    <a href="https://www.instagram.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-fit-orange transition-colors duration-300">
+                        <i className="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-fit-orange transition-colors duration-300">
+                        <i className="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                </div>
                 <p>&copy; {new Date().getFullYear()} Fit+ Equipamentos. Todos os direitos reservados.</p>
             </div>
         </footer>

@@ -54,32 +54,32 @@ export const solutions: Solution[] = [
 // Products Data
 export const products: Product[] = [
     {
-        image: "https://png.pngtree.com/png-clipart/20230501/original/pngtree-an-electric-treadmill-for-running-and-walking-in-a-gym-png-image_9125621.png",
+        image: "../assets/esteira.jpg",
         name: "Esteira Profissional",
         category: "Cardio"
     },
     {
-        image: "https://png.pngtree.com/png-vector/20240223/ourmid/pngtree-magnetic-resistance-elliptical-machine-png-image_11765659.png",
+        image: "../assets/eliptico.jpg",
         name: "Elíptico Magnético",
         category: "Cardio"
     },
     {
-        image: "https://www.vhv.rs/dpng/d/427-4272163_45-degree-leg-press-hd-png-download.png",
+        image: "../assets/LegPress.png",
         name: "Leg Press 45º",
         category: "Musculação"
     },
     {
-        image: "https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-spinning-bike-in-a-gym-vector-illustration-png-image_11583542.png",
+        image: "../assets/bicicleta.jpg",
         name: "Bicicleta de Spinning",
         category: "Cardio"
     },
     {
-        image: "https://png.pngtree.com/png-vector/20240223/ourmid/pngtree-lat-pulldown-machine-in-a-gym-vector-illustration-png-image_11765658.png",
+        image: "../assets/puxada.png",
         name: "Puxada Alta",
         category: "Musculação"
     },
     {
-        image: "https://png.pngtree.com/png-vector/20240223/ourmid/pngtree-smith-machine-isolated-on-transparent-background-png-image_11765657.png",
+        image: "../assets/smith.jpg",
         name: "Máquina Smith",
         category: "Musculação"
     }

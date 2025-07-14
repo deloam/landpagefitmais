@@ -1,15 +1,33 @@
 
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 
 const HeroSection: React.FC = () => {
+    const parallaxRef = useRef<HTMLDivElement>(null);
+
     const scrollToContact = (e: React.MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
         document.querySelector('#contato')?.scrollIntoView({ behavior: 'smooth' });
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (parallaxRef.current) {
+                const scrolled = window.scrollY;
+                // Adjust the speed of the parallax effect (e.g., 0.5 for half speed)
+                parallaxRef.current.style.backgroundPositionY = `${-scrolled * 0.3}px`;
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white">
-            <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://image.shutterstock.com/image-photo/modern-gym-interior-equipment-260nw-1113026519.jpg')" }}>
+            <div ref={parallaxRef} className="absolute inset-0 bg-cover bg-top" style={{ backgroundImage: "url('../assets/faixada.jpg')" }}>
                 <div className="absolute inset-0 bg-black opacity-60"></div>
             </div>
             <div className="relative z-10 px-6">

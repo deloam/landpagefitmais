@@ -40,6 +40,12 @@ const Header: React.FC = () => {
                             {link.text}
                         </a>
                     ))}
+                    <a href="https://www.instagram.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-fit-orange transition-colors duration-300">
+                        <i className="fab fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="https://www.facebook.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-fit-orange transition-colors duration-300">
+                        <i className="fab fa-facebook-f fa-lg"></i>
+                    </a>
                 </nav>
 
                 <div className="md:hidden">
@@ -62,6 +68,12 @@ const Header: React.FC = () => {
                                 {link.text}
                             </a>
                         ))}
+                        <a href="https://www.instagram.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-fit-orange transition-colors duration-300 py-2">
+                            <i className="fab fa-instagram fa-lg"></i> Instagram
+                        </a>
+                        <a href="https://www.facebook.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-fit-orange transition-colors duration-300 py-2">
+                            <i className="fab fa-facebook-f fa-lg"></i> Facebook
+                        </a>
                     </nav>
                 </div>
             )}
