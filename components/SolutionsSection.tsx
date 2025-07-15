@@ -23,7 +23,7 @@ const SolutionsSection: React.FC = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-white">Uma Parceria <span className="text-fit-orange">Completa</span></h2>
                     <p className="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">Cuidamos de cada detalhe para que você foque no que realmente importa: o sucesso do seu negócio.</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {solutions.map((solution, index) => (
                         <SolutionCard key={index} solution={solution} />
                     ))}

@@ -2,13 +2,6 @@
 import { Solution, Product, Client } from './types';
 
 // Icons
-const ProjectIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-fit-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-    </svg>
-);
-
 const SellIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-fit-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -29,11 +22,6 @@ const MaintenanceIcon = () => (
 
 // Solutions Data
 export const solutions: Solution[] = [
-    {
-        icon: <ProjectIcon />,
-        title: "Projeto 3D",
-        description: "Visualizamos seu espaço em 3D, otimizando cada metro quadrado para máxima funcionalidade e um layout perfeito antes de qualquer investimento."
-    },
     {
         icon: <SellIcon />,
         title: "Venda de Equipamentos",
@@ -86,9 +74,4 @@ export const products: Product[] = [
 ];
 
 // Clients Data
-export const clients: Client[] = [
-    { logo: "https://fitmaisequipamentos.com.br/wp-content/uploads/2021/08/logo-movement.png", name: "Movement" },
-    { logo: "https://fitmaisequipamentos.com.br/wp-content/uploads/2021/08/logo-total-health.png", name: "Total Health" },
-    { logo: "https://fitmaisequipamentos.com.br/wp-content/uploads/2021/08/logo-embreex.png", name: "Embreex" },
-    { logo: "https://fitmaisequipamentos.com.br/wp-content/uploads/2021/08/logo-kenzup.png", name: "Kenzup" },
-];
+export const clients: Client[] = [];

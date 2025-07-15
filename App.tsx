@@ -4,9 +4,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import SolutionsSection from './components/SolutionsSection';
 import ProductsSection from './components/ProductsSection';
-import ProjectsSection from './components/ProjectsSection';
 import MaintenanceSection from './components/MaintenanceSection';
-import ClientsSection from './components/ClientsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
@@ -18,9 +16,7 @@ const App: React.FC = () => {
         <HeroSection />
         <SolutionsSection />
         <ProductsSection />
-        <ProjectsSection />
         <MaintenanceSection />
-        <ClientsSection />
         <ContactSection />
       </main>
       <Footer />

@@ -27,7 +27,7 @@ const MaintenanceSection: React.FC = () => {
                     </ul>
                 </div>
                 <div className="lg:w-1/2 w-full">
-                    <img src="https://picsum.photos/seed/maintenance/800/600" alt="Técnico fazendo manutenção em equipamento de ginástica" className="rounded-lg shadow-2xl w-full h-auto object-cover" />
+                    <img src="../assets/equipe.jpg" alt="Equipe de manutenção em equipamento de ginástica" className="rounded-lg shadow-2xl w-full h-auto object-cover" />
                 </div>
             </div>
         </section>
