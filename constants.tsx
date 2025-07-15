@@ -1,5 +1,11 @@
 
 import { Solution, Product, Client } from './types';
+import esteira from './assets/esteira.jpg';
+import eliptico from './assets/eliptico.jpg';
+import legPress from './assets/LegPress.png';
+import bicicleta from './assets/bicicleta.jpg';
+import puxada from './assets/puxada.png';
+import smith from './assets/smith.jpg';
 
 // Icons
 const SellIcon = () => (
@@ -42,32 +48,32 @@ export const solutions: Solution[] = [
 // Products Data
 export const products: Product[] = [
     {
-        image: "../assets/esteira.jpg",
+        image: esteira,
         name: "Esteira Profissional",
         category: "Cardio"
     },
     {
-        image: "../assets/eliptico.jpg",
+        image: eliptico,
         name: "Elíptico Magnético",
         category: "Cardio"
     },
     {
-        image: "../assets/LegPress.png",
+        image: legPress,
         name: "Leg Press 45º",
         category: "Musculação"
     },
     {
-        image: "../assets/bicicleta.jpg",
+        image: bicicleta,
         name: "Bicicleta de Spinning",
         category: "Cardio"
     },
     {
-        image: "../assets/puxada.png",
+        image: puxada,
         name: "Puxada Alta",
         category: "Musculação"
     },
     {
-        image: "../assets/smith.jpg",
+        image: smith,
         name: "Máquina Smith",
         category: "Musculação"
     }

@@ -1,9 +1,10 @@
 
 import React from 'react';
+import equipe from '../assets/equipe.jpg';
 
 const MaintenanceSection: React.FC = () => {
     return (
-        <section id="manutencao" className="py-20 bg-gray-900 text-white">
+        <section id="manutencao" className="py-20 bg-gray-800/50 text-white">
             <div className="container mx-auto px-6 flex flex-col lg:flex-row-reverse items-center gap-12">
                 <div className="lg:w-1/2">
                     <span className="text-fit-orange font-bold uppercase tracking-wider">Assistência Técnica</span>
@@ -27,7 +28,7 @@ const MaintenanceSection: React.FC = () => {
                     </ul>
                 </div>
                 <div className="lg:w-1/2 w-full">
-                    <img src="../assets/equipe.jpg" alt="Equipe de manutenção em equipamento de ginástica" className="rounded-lg shadow-2xl w-full h-auto object-cover" />
+                    <img src={equipe} alt="Equipe de manutenção em equipamento de ginástica" className="rounded-lg shadow-2xl w-full h-auto object-cover" />
                 </div>
             </div>
         </section>

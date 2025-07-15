@@ -1,5 +1,6 @@
 
 import React, { useRef, useEffect } from 'react';
+import faixada from '../assets/faixada.jpg';
 
 const HeroSection: React.FC = () => {
     const parallaxRef = useRef<HTMLDivElement>(null);
@@ -27,7 +28,7 @@ const HeroSection: React.FC = () => {
 
     return (
         <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white">
-            <div ref={parallaxRef} className="absolute inset-0 bg-cover bg-top" style={{ backgroundImage: "url('../assets/faixada.jpg')" }}>
+            <div ref={parallaxRef} className="absolute inset-0 bg-cover bg-top" style={{ backgroundImage: `url(${faixada})` }}>
                 <div className="absolute inset-0 bg-black opacity-60"></div>
             </div>
             <div className="relative z-10 px-6">
