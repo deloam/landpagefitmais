@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
                 <p className="mb-4">
                     Soluções 360° em Equipamentos Fitness
                 </p>
-                 <div className="flex justify-center space-x-6 mb-4 text-gray-400">
-                    <p>contato@fitmaisequipamentos.com.br</p>
-                    <p>(11) 99999-9999</p>
+                 <div className="flex flex-col md:flex-row justify-center md:space-x-6 space-y-2 md:space-y-0 mb-4 text-gray-400">
+                    <p className="text-center">contato@fitmaisequipamentos.com.br</p>
+                    <p className="text-center">(91) 9198-2367</p>
                  </div>
                 <div className="flex justify-center space-x-6 mb-4">
                     <a href="https://www.instagram.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-fit-orange transition-colors duration-300">

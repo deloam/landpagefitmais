@@ -28,11 +28,7 @@ const ProductsSection: React.FC = () => {
                         <ProductCard key={index} product={product} />
                     ))}
                 </div>
-                 <div className="text-center mt-12">
-                    <a href="#contato" className="text-fit-orange font-semibold hover:text-orange-400 transition-colors">
-                        Ver catálogo completo &rarr;
-                    </a>
-                </div>
+                
             </div>
         </section>
     );
