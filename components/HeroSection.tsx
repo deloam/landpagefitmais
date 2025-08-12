@@ -1,6 +1,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import faixada from '../assets/faixada.webp';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const HeroSection: React.FC = () => {
     const parallaxRef = useRef<HTMLDivElement>(null);
@@ -34,13 +35,15 @@ const HeroSection: React.FC = () => {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-wider mb-4">
                     Montamos e Mantemos Sua Academia com <span className="text-fit-orange">Excelência</span>
                 </h1>
+                <br/>
                 <p className="text-lg md:text-2xl font-light max-w-3xl mx-auto">
-                    A solução completa para você focar no que realmente importa: o sucesso do seu negócio.
+                    A solução completa para você focar no que realmente<br />importa: o sucesso do seu negócio.
                 </p>
                 <a 
                     href="#contato" 
                     onClick={scrollToContact}
-                    className="bg-fit-orange text-white font-bold py-4 px-10 rounded-full text-xl uppercase hover:bg-orange-600 transition-all duration-300 shadow-lg transform hover:scale-105 mt-8 inline-block">
+                    className="bg-green-500 text-white font-bold py-4 px-10 rounded-full text-xl uppercase hover:bg-green-600 transition-all duration-300 shadow-lg transform hover:scale-105 mt-8 inline-flex items-center">
+                    <FaWhatsapp className="mr-3 text-2xl" />
                     Solicite um Orçamento Grátis
                 </a>
             </div>
