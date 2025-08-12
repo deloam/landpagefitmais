@@ -72,7 +72,7 @@ const ContactSection: React.FC = () => {
                             className="bg-green-500 text-white font-bold py-4 px-8 rounded-full text-lg uppercase hover:bg-green-600 transition-all duration-300 shadow-lg transform hover:scale-105 inline-flex items-center"
                         >
                             <FaWhatsapp className="mr-3 text-2xl" />
-                            Falar pelo WhatsApp
+                            Chamar no WhatsApp
                         </a>
                     </div>
                 </div>

@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                             {link.text}
                         </a>
                     ))}
-                    <a href="https://www.instagram.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-fit-orange transition-colors duration-300">
+                    <a href="https://www.instagram.com/fitmais.equipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-fit-orange transition-colors duration-300">
                         <i className="fab fa-instagram fa-lg"></i>
                     </a>
                     <a href="https://www.facebook.com/fitmaisequipamentos/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-fit-orange transition-colors duration-300">
