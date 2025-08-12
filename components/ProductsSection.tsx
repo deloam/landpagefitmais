@@ -8,7 +8,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
         <img src={product.image} alt={product.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
         <div className="absolute bottom-0 left-0 p-6">
-            <span className="text-xs font-semibold uppercase text-fit-orange tracking-wider">{product.category}</span>
             <h3 className="text-xl font-bold text-white mt-1">{product.name}</h3>
         </div>
     </div>
@@ -20,8 +19,8 @@ const ProductsSection: React.FC = () => {
         <section id="produtos" className="py-20 bg-gray-900">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-white">Equipamentos de <span className="text-fit-orange">Alta Performance</span></h2>
-                    <p className="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">Trabalhamos com as melhores marcas para garantir a qualidade e a satisfação que seu espaço merece.</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white">Nossas <span className="text-fit-orange">Marcas Parceiras</span></h2>
+                    <p className="text-lg text-gray-400 mt-4 max-w-2xl mx-auto">Trabalhamos com as melhores marcas do mercado para oferecer equipamentos de alta qualidade e tecnologia.</p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {products.map((product, index) => (

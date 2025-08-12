@@ -2,19 +2,34 @@ import React from 'react';
 
 const testimonials = [
     {
-        quote: 'A Fit+ transformou nossa academia. O projeto ficou incrível e os equipamentos são de altíssima qualidade. Nossos alunos estão amando!',
-        name: 'Juliana Martins',
-        title: 'Gerente da Academia PowerFit',
+        quote: 'A melhor loja de Belém em equipamentos, acessórios , serviços de manutenção. Loja completa de alto nível, e vendedores super competentes.',
+        name: 'Thaiana Thaila',
+        title: '⭐️⭐️⭐️⭐️⭐️',
     },
     {
-        quote: 'O processo de consultoria foi fundamental para o sucesso do nosso novo estúdio. A equipe da Fit+ é extremamente profissional e atenciosa.',
-        name: 'Ricardo Almeida',
-        title: 'Proprietário do Studio Core Pilates',
+        quote: 'Uma loja com um ótimo atendimento, os vendedores são muito competentes. Sem falar o showroom completo.',
+        name: 'Daniel Jardim',
+        title: '⭐️⭐️⭐️⭐️⭐️',
     },
     {
-        quote: 'Nunca imaginei que seria tão fácil montar minha academia. A solução 360° da Fit+ cuidou de todos os detalhes, super recomendo!',
-        name: 'Fernanda Costa',
-        title: 'Empreendedora Fitness',
+        quote: 'Espaço completo, muitos equipamentos disponíveis pra venda, excelente qualidade, serviços de manutenção e preços super acessíveis',
+        name: 'Dennis Moraes',
+        title: '⭐️⭐️⭐️⭐️⭐️',
+    },
+    {
+        quote: 'Loja linda e super moderna com equipamentos, acessórios e suplementos completos! Um ótimo lugar para encontrar tudo para seu espaço fitness.',
+        name: 'Andre Junior',
+        title: '⭐️⭐️⭐️⭐️⭐️',
+    },
+    {
+        quote: 'Serviço em excelência, contratamos e o serviço foi entregue no plumo. Ótimo serviço e recomendo.',
+        name: 'Bergson Rodrigues',
+        title: '⭐️⭐️⭐️⭐️⭐️',
+    },
+    {
+        quote: 'Uma loja completa, com uma equipe especializada de vendedores e técnico.',
+        name: 'Anderson Ferreira',
+        title: '⭐️⭐️⭐️⭐️⭐️',
     },
 ];
 
@@ -32,7 +47,7 @@ const SocialProofSection: React.FC = () => {
                             <p className="text-gray-300 text-lg italic mb-6">"{testimonial.quote}"</p>
                             <div>
                                 <p className="text-white font-bold text-xl">{testimonial.name}</p>
-                                <p className="text-fit-orange font-semibold">{testimonial.title}</p>
+                                <p className="text-fit-orange font-semibold text-2xl">{testimonial.title}</p>
                             </div>
                         </div>
                     ))}

@@ -6,6 +6,9 @@ import legPress from './assets/LegPress.png';
 import bicicleta from './assets/bicicleta.jpg';
 import puxada from './assets/puxada.png';
 import smith from './assets/smith.jpg';
+import evolution from './assets/evolution.png';
+import movement from './assets/movement.png';
+import shedfitness from './assets/shedfitness.png';
 
 // Icons
 const SellIcon = () => (
@@ -30,52 +33,34 @@ const MaintenanceIcon = () => (
 export const solutions: Solution[] = [
     {
         icon: <SellIcon />,
-        title: "Venda de Equipamentos",
-        description: "Oferecemos um portfólio completo com as melhores marcas do mercado, garantindo qualidade e durabilidade para sua academia, condomínio ou estúdio."
+        title: "Equipamentos de Ponta",
+        description: "Acesso aos melhores equipamentos do mercado, garantindo durabilidade e performance para o seu espaço. Invista com segurança e qualidade."
     },
     {
         icon: <InstallIcon />,
-        title: "Instalação Profissional",
-        description: "Nossa equipe especializada realiza a montagem e instalação de todos os equipamentos com segurança e precisão, deixando tudo pronto para o uso."
+        title: "Montagem e Instalação",
+        description: "Nossa equipe cuida de toda a montagem e instalação, assegurando que seus equipamentos estejam prontos para uso, com segurança e eficiência."
     },
     {
         icon: <MaintenanceIcon />,
-        title: "Manutenção Preventiva",
-        description: "Cuidamos da saúde dos seus equipamentos com planos de manutenção preventiva e corretiva, assegurando longevidade e a segurança de seus alunos."
+        title: "Manutenção Especializada",
+        description: "Planos de manutenção preventiva e corretiva para prolongar a vida útil dos seus equipamentos e garantir a segurança dos seus usuários."
     }
 ];
 
 // Products Data
 export const products: Product[] = [
     {
-        image: esteira,
-        name: "Esteira Profissional",
-        category: "Cardio"
+        image: movement,
+        name: "Movement"
     },
     {
-        image: eliptico,
-        name: "Elíptico Magnético",
-        category: "Cardio"
+        image: shedfitness,
+        name: "Shed Fitness"
     },
     {
-        image: legPress,
-        name: "Leg Press 45º",
-        category: "Musculação"
-    },
-    {
-        image: bicicleta,
-        name: "Bicicleta de Spinning",
-        category: "Cardio"
-    },
-    {
-        image: puxada,
-        name: "Puxada Alta",
-        category: "Musculação"
-    },
-    {
-        image: smith,
-        name: "Máquina Smith",
-        category: "Musculação"
+        image: evolution,
+        name: "Evolution Fitness"
     }
 ];
 

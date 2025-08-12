@@ -31,27 +31,18 @@ const HeroSection: React.FC = () => {
             <div ref={parallaxRef} className="absolute inset-0 bg-cover bg-top md:bg-center bg-left-30" style={{ backgroundImage: `url(${faixada})` }}>
                 <div className="absolute inset-0 bg-black opacity-60"></div>
             </div>
-            <div className="relative z-10 px-6">
+            <div className="relative z-10 px-6 bg-black bg-opacity-70 p-6 rounded-lg">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-wider mb-4">
-                    A Solução <span className="text-fit-orange">360°</span>
+                    Montamos e Mantemos Sua Academia com <span className="text-fit-orange">Excelência</span>
                 </h1>
-                <div className="bg-black bg-opacity-100 p-4 rounded-lg">
-                    <TypeAnimation
-                        sequence={[
-                            'Do projeto à manutenção, a Fit+ é sua parceira completa para criar e gerenciar espaços fitness de alta performance.',
-                            100,
-                        ]}
-                        wrapper="p"
-                        cursor={false}
-                        repeat={0}
-                        className="text-lg md:text-2xl font-light max-w-3xl mx-auto"
-                    />
-                </div>
+                <p className="text-lg md:text-2xl font-light max-w-3xl mx-auto">
+                    A solução completa para você focar no que realmente importa: o sucesso do seu negócio.
+                </p>
                 <a 
                     href="#contato" 
                     onClick={scrollToContact}
-                    className="bg-fit-orange text-white font-bold py-3 px-8 rounded-full text-lg uppercase hover:bg-orange-600 transition-all duration-300 shadow-lg transform hover:scale-105 mt-8 inline-block">
-                    Comece seu projeto
+                    className="bg-fit-orange text-white font-bold py-4 px-10 rounded-full text-xl uppercase hover:bg-orange-600 transition-all duration-300 shadow-lg transform hover:scale-105 mt-8 inline-block">
+                    Solicite um Orçamento Grátis
                 </a>
             </div>
         </section>

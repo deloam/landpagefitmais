@@ -15,6 +15,7 @@ const Header: React.FC = () => {
 
     const navLinks = [
         { href: '#solucoes', text: 'Soluções 360°' },
+        { href: '#quem-somos', text: 'Quem Somos' },
         { href: '#produtos', text: 'Produtos' },
         { href: '#contato', text: 'Contato' },
     ];

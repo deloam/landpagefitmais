@@ -10,7 +10,6 @@ export interface Solution {
 export interface Product {
   image: string;
   name: string;
-  category: string;
 }
 
 export interface Client {
