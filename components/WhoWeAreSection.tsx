@@ -1,6 +1,6 @@
 
 import React from 'react';
-import faixada from '../assets/faixada.jpg';
+import faixada from '../assets/faixada.webp';
 
 const WhoWeAreSection: React.FC = () => {
     return (

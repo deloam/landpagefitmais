@@ -1,6 +1,6 @@
 
 import React from 'react';
-import equipe from '../assets/equipe.jpg';
+import equipe from '../assets/equipe.webp';
 
 const MaintenanceSection: React.FC = () => {
     return (

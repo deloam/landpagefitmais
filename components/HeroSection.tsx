@@ -1,7 +1,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import faixada from '../assets/faixada.jpg';
+import faixada from '../assets/faixada.webp';
 
 const HeroSection: React.FC = () => {
     const parallaxRef = useRef<HTMLDivElement>(null);

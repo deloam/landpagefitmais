@@ -1,14 +1,14 @@
 
 import { Solution, Product, Client } from './types';
-import esteira from './assets/esteira.jpg';
-import eliptico from './assets/eliptico.jpg';
-import legPress from './assets/LegPress.png';
-import bicicleta from './assets/bicicleta.jpg';
-import puxada from './assets/puxada.png';
-import smith from './assets/smith.jpg';
-import evolution from './assets/evolution.png';
-import movement from './assets/movement.png';
-import shedfitness from './assets/shedfitness.png';
+import esteira from './assets/esteira.webp';
+import eliptico from './assets/eliptico.webp';
+import legPress from './assets/LegPress.webp';
+import bicicleta from './assets/bicicleta.webp';
+import puxada from './assets/puxada.webp';
+import smith from './assets/smith.webp';
+import evolution from './assets/evolution.webp';
+import movement from './assets/movement.webp';
+import shedfitness from './assets/shedfitness.webp';
 
 // Icons
 const SellIcon = () => (
